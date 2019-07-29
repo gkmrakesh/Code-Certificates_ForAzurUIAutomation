@@ -1,0 +1,55 @@
+- bash: pod install ; echo '$(1)' ; echo '$(2)' ; echo '$(SDK)'
+    - task: InstallAppleCertificate@2
+      inputs:
+        certSecureFile: 'Certificates.p12'
+        certPwd: '$(certificatePWD)'
+        keychain: 'temp'    
+    - task: InstallAppleProvisioningProfile@1
+      inputs:
+        provisioningProfileLocation: 'secureFiles'
+        provProfileSecureFile: 'azur_CICD_check.mobileprovision'
+
+
+        packageApp: true
+archivePath: 'mhmobile.xcarchive'
+exportPath: 'output/testapp'
+exportOptions: plist
+exportOptionsPlist: './exportOptions.plist’
+
+- task: Xcode@5
+inputs:
+actions: 'clean build archive'
+sdk: '$(SDK)'
+configuration: 'Release'
+xcWorkspacePath: './MHMobile.xcworkspace'
+scheme: 'MHMobile'
+xcodeVersion: 'specifyPath'
+xcodeDeveloperDir: '/Applications/Xcode_10.2.1.app'
+
+lane :beta do
+    increment_build_number
+    build_app(workspace: "MHMobile.xcworkspace", scheme: "MHMobile")
+    upload_to_testflight
+  end
+
+
+  - task: CopyFiles@2
+  inputs:
+    contents: '**/*.ipa'
+    targetFolder: '$(build.artifactStagingDirectory)/*.zip'
+- task: PublishBuildArtifacts@1
+
+
+- task: ArtifactoryGenericUpload@1
+      inputs:
+        artifactoryService: 'jFrogArtifactory01'
+        specSource: 'taskConfiguration'
+        fileSpec: '{
+            "files": [
+              {
+                "pattern": "./IPAGeneration/*.ipa",
+                "target": "android-built/com/amadeus/mdp/ipa/"
+              }
+            ]
+          }'
+        failNoOp: true

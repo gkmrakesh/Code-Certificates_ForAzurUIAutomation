@@ -1,0 +1,34 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+opt_out_usage
+
+platform :ios do
+  
+  app_id="com.amadeus.increasenumber"
+
+  desc "Create ipa"
+  lane :build do
+    
+    gym(workspace: "MHMobile.xcworkspace", scheme: "MHMobile", export_options: "./fastlane/exportOptions.plist", clean: true, 
+      skip_profile_detection: true, output_directory:"./IPAGeneration/", output_name: "mh.ipa", 
+      configuration: "Debug", build_path: "./IPAGeneration/", 
+      archive_path: "./IPAGeneration/")
+
+  end
+
+end

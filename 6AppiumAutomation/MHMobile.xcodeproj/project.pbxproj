@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68ECE2EDDC381AF6023168DA /* Pods_MHMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B88F65C17519D3372E5028 /* Pods_MHMobile.framework */; };
+		8C8770D0A791F2DD37990BAC /* Pods_MHMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD96813AEDCBB2E74E36501 /* Pods_MHMobileTests.framework */; };
+		DEEE2AAE22D4A20D00352EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEE2AAD22D4A20D00352EC3 /* AppDelegate.swift */; };
+		DEEE2AB022D4A20D00352EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEE2AAF22D4A20D00352EC3 /* ViewController.swift */; };
+		DEEE2AB322D4A20D00352EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEE2AB122D4A20D00352EC3 /* Main.storyboard */; };
+		DEEE2AB522D4A20E00352EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEE2AB422D4A20E00352EC3 /* Assets.xcassets */; };
+		DEEE2AB822D4A20E00352EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEE2AB622D4A20E00352EC3 /* LaunchScreen.storyboard */; };
+		DEEE2AC322D4A20E00352EC3 /* MHMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEE2AC222D4A20E00352EC3 /* MHMobileTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEEE2ABF22D4A20E00352EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEEE2AA222D4A20D00352EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEEE2AA922D4A20D00352EC3;
+			remoteInfo = MHMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B876E8FC374F69B67AE77E8 /* Pods-MHMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHMobileTests.release.xcconfig"; path = "Target Support Files/Pods-MHMobileTests/Pods-MHMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		7FD96813AEDCBB2E74E36501 /* Pods_MHMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B88F65C17519D3372E5028 /* Pods_MHMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E0635262FBAAFA015923BD /* Pods-MHMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHMobile.debug.xcconfig"; path = "Target Support Files/Pods-MHMobile/Pods-MHMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		B90B9EF9E637998727DFE51E /* Pods-MHMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-MHMobileTests/Pods-MHMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEEE2AAA22D4A20D00352EC3 /* MHMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEE2AAD22D4A20D00352EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEEE2AAF22D4A20D00352EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEEE2AB222D4A20D00352EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEEE2AB422D4A20E00352EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEEE2AB722D4A20E00352EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEEE2AB922D4A20E00352EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEEE2ABE22D4A20E00352EC3 /* MHMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEE2AC222D4A20E00352EC3 /* MHMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHMobileTests.swift; sourceTree = "<group>"; };
+		DEEE2AC422D4A20E00352EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE339BCBB1FF28E0AF0864F /* Pods-MHMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHMobile.release.xcconfig"; path = "Target Support Files/Pods-MHMobile/Pods-MHMobile.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEEE2AA722D4A20D00352EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68ECE2EDDC381AF6023168DA /* Pods_MHMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEE2ABB22D4A20E00352EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8770D0A791F2DD37990BAC /* Pods_MHMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A098843E6ED0CA6CB3EBFCE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E0635262FBAAFA015923BD /* Pods-MHMobile.debug.xcconfig */,
+				ECE339BCBB1FF28E0AF0864F /* Pods-MHMobile.release.xcconfig */,
+				B90B9EF9E637998727DFE51E /* Pods-MHMobileTests.debug.xcconfig */,
+				2B876E8FC374F69B67AE77E8 /* Pods-MHMobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA10ED22007AA10D3EB709FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94B88F65C17519D3372E5028 /* Pods_MHMobile.framework */,
+				7FD96813AEDCBB2E74E36501 /* Pods_MHMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEEE2AA122D4A20D00352EC3 = {
+			isa = PBXGroup;
+			children = (
+				DEEE2AAC22D4A20D00352EC3 /* MHMobile */,
+				DEEE2AC122D4A20E00352EC3 /* MHMobileTests */,
+				DEEE2AAB22D4A20D00352EC3 /* Products */,
+				A098843E6ED0CA6CB3EBFCE7 /* Pods */,
+				DA10ED22007AA10D3EB709FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEE2AAB22D4A20D00352EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE2AAA22D4A20D00352EC3 /* MHMobile.app */,
+				DEEE2ABE22D4A20E00352EC3 /* MHMobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEEE2AAC22D4A20D00352EC3 /* MHMobile */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE2AAD22D4A20D00352EC3 /* AppDelegate.swift */,
+				DEEE2AAF22D4A20D00352EC3 /* ViewController.swift */,
+				DEEE2AB122D4A20D00352EC3 /* Main.storyboard */,
+				DEEE2AB422D4A20E00352EC3 /* Assets.xcassets */,
+				DEEE2AB622D4A20E00352EC3 /* LaunchScreen.storyboard */,
+				DEEE2AB922D4A20E00352EC3 /* Info.plist */,
+			);
+			path = MHMobile;
+			sourceTree = "<group>";
+		};
+		DEEE2AC122D4A20E00352EC3 /* MHMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE2AC222D4A20E00352EC3 /* MHMobileTests.swift */,
+				DEEE2AC422D4A20E00352EC3 /* Info.plist */,
+			);
+			path = MHMobileTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEEE2AA922D4A20D00352EC3 /* MHMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEE2AC722D4A20E00352EC3 /* Build configuration list for PBXNativeTarget "MHMobile" */;
+			buildPhases = (
+				6A72BA632FEDFAF0DE0C2DCF /* [CP] Check Pods Manifest.lock */,
+				DEEE2AA622D4A20D00352EC3 /* Sources */,
+				DEEE2AA722D4A20D00352EC3 /* Frameworks */,
+				DEEE2AA822D4A20D00352EC3 /* Resources */,
+				1120464BF46C4AD6D5C2F01F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHMobile;
+			productName = MHMobile;
+			productReference = DEEE2AAA22D4A20D00352EC3 /* MHMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEEE2ABD22D4A20E00352EC3 /* MHMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEEE2ACA22D4A20E00352EC3 /* Build configuration list for PBXNativeTarget "MHMobileTests" */;
+			buildPhases = (
+				76CAEE3BF550C655B19B9092 /* [CP] Check Pods Manifest.lock */,
+				DEEE2ABA22D4A20E00352EC3 /* Sources */,
+				DEEE2ABB22D4A20E00352EC3 /* Frameworks */,
+				DEEE2ABC22D4A20E00352EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEEE2AC022D4A20E00352EC3 /* PBXTargetDependency */,
+			);
+			name = MHMobileTests;
+			productName = MHMobileTests;
+			productReference = DEEE2ABE22D4A20E00352EC3 /* MHMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEEE2AA222D4A20D00352EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Rakesh MEMBARAM";
+				TargetAttributes = {
+					DEEE2AA922D4A20D00352EC3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DEEE2ABD22D4A20E00352EC3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DEEE2AA922D4A20D00352EC3;
+					};
+				};
+			};
+			buildConfigurationList = DEEE2AA522D4A20D00352EC3 /* Build configuration list for PBXProject "MHMobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEEE2AA122D4A20D00352EC3;
+			productRefGroup = DEEE2AAB22D4A20D00352EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEEE2AA922D4A20D00352EC3 /* MHMobile */,
+				DEEE2ABD22D4A20E00352EC3 /* MHMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEEE2AA822D4A20D00352EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEE2AB822D4A20E00352EC3 /* LaunchScreen.storyboard in Resources */,
+				DEEE2AB522D4A20E00352EC3 /* Assets.xcassets in Resources */,
+				DEEE2AB322D4A20D00352EC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEE2ABC22D4A20E00352EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1120464BF46C4AD6D5C2F01F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MHMobile/Pods-MHMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MHMobile/Pods-MHMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MHMobile/Pods-MHMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A72BA632FEDFAF0DE0C2DCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MHMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CAEE3BF550C655B19B9092 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MHMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEEE2AA622D4A20D00352EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEE2AB022D4A20D00352EC3 /* ViewController.swift in Sources */,
+				DEEE2AAE22D4A20D00352EC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEE2ABA22D4A20E00352EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEEE2AC322D4A20E00352EC3 /* MHMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEEE2AC022D4A20E00352EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEEE2AA922D4A20D00352EC3 /* MHMobile */;
+			targetProxy = DEEE2ABF22D4A20E00352EC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEEE2AB122D4A20D00352EC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEE2AB222D4A20D00352EC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEEE2AB622D4A20E00352EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEEE2AB722D4A20E00352EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEEE2AC522D4A20E00352EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEEE2AC622D4A20E00352EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEEE2AC822D4A20E00352EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E0635262FBAAFA015923BD /* Pods-MHMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: rakesh membaram (6XALVPCLC3)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = M629BGFEH2;
+				INFOPLIST_FILE = MHMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.increasenumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e589e570-f444-458b-9a63-24511b66de33";
+				PROVISIONING_PROFILE_SPECIFIER = "MDP wild card dev profile";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		DEEE2AC922D4A20E00352EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE339BCBB1FF28E0AF0864F /* Pods-MHMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development: rakesh membaram (6XALVPCLC3)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 9;
+				DEVELOPMENT_TEAM = M629BGFEH2;
+				INFOPLIST_FILE = MHMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.increasenumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e589e570-f444-458b-9a63-24511b66de33";
+				PROVISIONING_PROFILE_SPECIFIER = "MDP wild card dev profile";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		DEEE2ACB22D4A20E00352EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90B9EF9E637998727DFE51E /* Pods-MHMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78YA94EN7;
+				INFOPLIST_FILE = MHMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.MHMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e589e570-f444-458b-9a63-24511b66de33";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.gkmrakesh.matchtest3";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHMobile.app/MHMobile";
+			};
+			name = Debug;
+		};
+		DEEE2ACC22D4A20E00352EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B876E8FC374F69B67AE77E8 /* Pods-MHMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L78YA94EN7;
+				INFOPLIST_FILE = MHMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amadeus.MHMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e589e570-f444-458b-9a63-24511b66de33";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.gkmrakesh.matchtest3";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHMobile.app/MHMobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEEE2AA522D4A20D00352EC3 /* Build configuration list for PBXProject "MHMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEE2AC522D4A20E00352EC3 /* Debug */,
+				DEEE2AC622D4A20E00352EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEE2AC722D4A20E00352EC3 /* Build configuration list for PBXNativeTarget "MHMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEE2AC822D4A20E00352EC3 /* Debug */,
+				DEEE2AC922D4A20E00352EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEEE2ACA22D4A20E00352EC3 /* Build configuration list for PBXNativeTarget "MHMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEEE2ACB22D4A20E00352EC3 /* Debug */,
+				DEEE2ACC22D4A20E00352EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEEE2AA222D4A20D00352EC3 /* Project object */;
+}

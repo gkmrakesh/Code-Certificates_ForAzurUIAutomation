@@ -1,0 +1,33 @@
+# Xcode
+# Build, test, and archive an Xcode workspace on macOS.
+# Add steps that install certificates, test, sign, and distribute an app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
+
+name: Development$(Rev:.r)
+trigger:
+- master
+
+stages:
+- stage: MHMobile
+  displayName: Build common project
+  jobs: 
+  - job: 
+    pool:
+      vmImage: 'macOS-10.14' 
+    displayName: Build job of project
+    variables:
+    - group: Variables
+    steps:
+    - task: InstallAppleCertificate@2
+      inputs:
+        certSecureFile: 'DevelopmentWithPWD.p12'
+        certPwd: '$(certificatePWD)'
+        keychain: 'temp'    
+    - task: InstallAppleProvisioningProfile@1
+      inputs:
+        provisioningProfileLocation: 'secureFiles'
+        provProfileSecureFile: 'MDP_wild_card_dev_profile.mobileprovision'
+    - bash: ./fastlane-config.sh "GenerateIPA"
+    - bash: |
+        cd ./IPAGeneration
+        ls -l
